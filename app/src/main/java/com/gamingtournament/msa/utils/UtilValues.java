@@ -30,8 +30,8 @@ public class UtilValues {
     public static String WEB_URL = "https://rebellionwar.epizy.com";
     public static String WEB_URL_APP_DIR = "https://rebellionwar.epizy.com/app/";
 
-    public static final String SENDER_EMAIL = "rebellion.war.official@gmail.com";
-    public static final String SENDER_PASS = "Shahnawaz4@";
+    public static final String SENDER_EMAIL = "Your Email";
+    public static final String SENDER_PASS = "Your Email Password";
 
 
 
