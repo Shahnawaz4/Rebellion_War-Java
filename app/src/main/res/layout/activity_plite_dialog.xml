@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".pubglite.PliteDialogActivity">
+
+    <TextView
+        android:id="@+id/plite_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/plite_pos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="position"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/plite_id"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/plite_joined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="join"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/plite_pos"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/plite_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="total"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/plite_joined"
+        android:textSize="40sp"/>
+
+
+</RelativeLayout>

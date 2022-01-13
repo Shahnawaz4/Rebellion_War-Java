@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gamingtournament.msa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".OneSignalNotification"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".admin.AdminReviewActivity"></activity>
+        <activity android:name=".payment.BankDetailsActivity" />
+        <activity android:name=".profile.TopPlayersActivity" />
+        <activity android:name=".AllParticipantActivity" />
+        <activity
+            android:name=".payment.TransactionHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".payment.WithdrawMoneyActivity" />
+        <activity android:name=".payment.AddMoneyActivity" />
+        <activity android:name=".TeamNameActivity" />
+        <activity android:name=".profile.ChangeEmailActivity" />
+        <activity
+            android:name=".more.HelpSupportActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".more.HowToPlayActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".more.FAQsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".more.ContactActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".more.TermConditionActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".more.PrivacyPolicyActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".more.RulesActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".profile.MyProfileActivity" />
+        <activity android:name=".ClashofClansActivity" />
+        <activity android:name=".FreeFireActivity" />
+        <activity android:name=".PubgLiteActivity" />
+        <activity android:name=".PubgActivity" />
+        <activity android:name=".profile.ChangePassActivity" />
+        <activity android:name=".ForgotpassActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4273128318805554~8108330478" />
+    </application>
+
+</manifest>

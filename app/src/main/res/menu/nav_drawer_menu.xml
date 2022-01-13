@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/gp_1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_play"
+            android:title="Game Rules"/>
+    </group>
+
+    <group
+        android:id="@+id/gp_2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_howtoplay"
+            android:icon="@drawable/ic_play"
+            android:title="How to Play"/>
+    </group>
+
+    <group
+        android:id="@+id/gp_3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact us"/>
+    </group>
+    <group
+        android:id="@+id/gp_4"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_pass"
+            android:title="Privacy Policy"/>
+    </group>
+
+    <group
+        android:id="@+id/gp_9"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_refund"
+            android:icon="@drawable/ic_payment"
+            android:title="Refund Policy"/>
+    </group>
+
+    <group
+        android:id="@+id/gp_10"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_pass"
+            android:title="About us"/>
+    </group>
+
+
+    <group
+        android:id="@+id/gp_5"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_term"
+            android:icon="@drawable/ic_pass"
+            android:title="Term &amp; Condition"/>
+    </group>
+    <group
+        android:id="@+id/gp_6"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_faqs"
+            android:icon="@drawable/ic_feedback"
+            android:title="FAQ's"/>
+    </group>
+
+    <group
+        android:id="@+id/gp_7"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_help_support"
+            android:icon="@drawable/ic_feedback"
+            android:title="Help &amp; Support"/>
+
+    </group>
+    <group
+        android:id="@+id/gp_8"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"/>
+    </group>
+
+    <group
+        android:checkableBehavior="none">
+        <item
+            android:title=""/>
+    </group>
+
+
+
+
+
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Rebellion War</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="verify"><u>verify</u></string>
+    <string name="rules"><u>Rules</u></string>
+    <string name="by"><u>Rebellion</u></string>
+    <string name="allPlayers"><u>Participants</u></string>
+    <string name="edit_name"><u>Edit Name</u></string>
+    <string name="bonus_point"><u>Bonus Point</u></string>
+    <string name="cashfree"><u>Cashfree Payment Gateway</u></string>
+</resources>

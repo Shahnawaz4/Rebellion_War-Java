@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#F40DE5</color>
+    <color name="colorDarkBlue">#030F61</color>
+    <color name="colorProgressBar">#05786B</color>
+    <color name="colorWhatsapp">#075E54</color>
+</resources>
